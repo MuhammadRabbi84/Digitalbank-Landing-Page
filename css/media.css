@@ -1,0 +1,350 @@
+@media screen and (min-width: 23.438rem) {
+    .mockups-image{
+        max-height: 28.125rem;
+        top: -10rem;
+    }
+    .desc{
+        font-size: 0.875rem;
+    }
+    .intro{
+        padding-block-end: 3rem;
+    }  
+    .intro_title{
+        padding-block-end: 1rem;
+    } 
+}
+
+
+@media screen and (min-width: 26.563rem) {
+    .intro{
+        padding-block-end: 2rem;
+    }
+    .intro-bg{
+        height: 50dvh;
+    }  
+    .mockups-image{
+        object-fit: fill;
+    }
+}
+
+
+@media screen and (min-width: 36rem) {
+    .mockups-image{
+        object-fit: contain;
+    }
+}
+
+
+@media screen and (min-width: 48.063rem) {
+    .main-container{
+        max-width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .hidden{
+        display: block;
+    }
+    .desc,
+    .btn,
+    li a{
+        font-size: 0.938rem;
+    }
+    .btn:hover{
+        background-image: linear-gradient(var(--button-hover-bg));
+    }
+    header{
+        box-shadow: 0 5px 10px var(--neutral-gray-600);
+        padding-inline: 3rem;
+    }
+    .navbar_links{
+        position: static;
+        background-color: transparent;
+        width: auto;
+        top: auto;
+        padding: 0;
+        border-radius: none;
+        box-shadow: none;
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;
+    }
+    .nav_menu-list{
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+    .nav_menu-list a{
+        position: relative;
+        transition: font-weight 0.3s ease;
+    }
+    .nav_menu-list a::before{
+        content: "";
+        height: 0.313rem;
+        width: 100%;
+        background-color: var(--primary-green-500);
+        position: absolute;
+        top: 3.625rem;
+        transform: scale(0);
+        transform-origin: center;
+        transition: transform 0.4s ease;
+    }
+    .nav_menu-list a:hover{
+        font-weight: 500;
+    }
+    .nav_menu-list a:hover::before{
+        transform: scale(1);
+    }
+    .intro{
+        width: 100%;
+        padding-block-end: 0;
+        position: initial;
+    }
+    .intro-component{
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        gap: 2rem;
+    }
+    .intro_mobile-bg,
+    .links_toggle-buttons,
+    .bank_title-break{
+        display: none;
+    }
+    .intro_desktop-bg{
+        width: 70%;
+        height: 85vh;
+        top: -5rem;
+        right: -10rem; 
+    }
+    .intro-image,.intro-info{
+        flex-basis: 50%;
+    }
+    .intro-info{
+        order: 1;
+        padding-inline-start: 3rem;
+    }
+    .intro-image{
+        order: 2;
+    }
+    .intro_title{
+        font-size: 2.5rem;
+        padding-block-end: 1.5rem;
+    }
+    .intro_desc{
+        padding-block-end: 1.5rem;
+    }
+    .mockups-image{
+        object-fit: cover;
+        width: auto;
+        max-height: 80vh;
+        left: auto;
+        top: -1.5rem;
+        right: -4.3rem;
+    }
+    .bank_service-container{
+        padding-inline: 3rem;
+    }
+    .bank_service-title,
+    .blog_container-title{
+        font-size: 1.875rem;
+    }
+    .bank_service-desc{
+        width: 31.25rem;
+        margin: 0.2rem auto;
+    }
+    .service-container{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        gap: 3rem;
+    }
+    .service{
+        align-items: flex-start;
+        text-align: left;
+    }
+    .blog-container{
+        padding-inline: 3rem;
+    }
+    .blogs{
+        grid-template-columns: repeat(2 ,1fr);
+        gap: 2rem;
+    }
+    .blog_title:hover{
+        color: var(--primary-cyan-400);
+        cursor: pointer;
+    }
+    .footer_menu a:hover{
+        color: var(--primary-green-500);
+    }
+}
+
+
+@media screen and (min-width: 64rem) {
+    .intro_desktop-bg{
+        width: 100%;
+        height: 100vh;
+        top: -13vh;
+        right: -45%; 
+        object-fit: cover;
+
+    }
+    .mockups-image{
+        max-height: 100vh;
+        top: -8vh;
+        right: -8%;
+    }
+    .intro_desc{
+        width: 26.25rem;
+    }
+    .bank_service-container{
+        text-align: left;
+    }
+    .bank_service-desc{
+        margin: 0;
+    }
+    .service-container{
+        grid-template-columns: repeat(4 ,1fr);
+    }
+    .footer-container{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-inline: 3rem;
+    }
+    .footer_left-component{
+        display: flex;
+        justify-content: space-between;
+        flex-basis: 60%;
+    }
+    .social_links-container{
+        justify-content: space-between;
+
+    }
+    .footer_menu-container{
+        flex-direction: row;
+        gap: 6rem;
+    }
+    .footer_menu li a{
+        padding-block-end: 1.5rem;
+        text-align: left;
+    }
+    .footer_right-component{
+        flex-basis: 40%;
+        text-align: right;
+    }
+    .all-right{
+        font-size: 0.938rem;
+    }
+    .attribution{
+        font-size: 0.75rem;
+    }
+    .blog-container{
+        background-color: var(--neutral-gray-50);
+    }
+    .blog_container-title{
+        text-align: left;
+    }
+    .blog{
+        height: auto;
+        background-color: var(--neutral-white);
+        box-shadow: 0 5px 10px var(--neutral-gray-600);
+    }
+    .blog-image,.blog-info{
+        height: auto;
+    }
+    .blog img{
+        height: 11.25rem;
+    }
+
+    .blogs{
+        grid-template-columns: repeat(4 ,1fr);
+        gap: 1.5rem;
+    }
+}
+
+
+@media screen and (min-width: 73.75rem) {
+    .btn{
+        padding-inline: 2rem;
+    }
+    .navbar,
+    .intro,
+    .bank_service-container,
+    .blog-container,
+    .footer-container{
+        max-width: 71.875rem;
+        margin: 0 auto;
+    }
+    .blog{
+        height: auto;
+    }
+    .blog-image,.blog-info{
+        height: auto;
+    }
+    .blogs{
+        grid-template-columns: repeat(4 ,1fr);
+    }
+}
+
+
+@media screen and (min-width: 84.375rem) {
+    header{
+        padding-inline: 0;
+    }
+    .navbar,
+    .intro,
+    .bank_service-container,
+    .blog-container,
+    .footer-container{
+        max-width: 81.25rem;
+        margin: 0 auto;
+    }
+    .intro_desktop-bg{
+        right: -45%;
+        top: -10vh;
+    }
+    .mockups-image{
+        right: -9%;
+        width: 50%;
+        max-height: 120vh;
+        top: -20vh;
+    }
+    .intro_title{
+        font-size: 3.125rem;
+    }
+    .desc{
+        font-size: 1rem;
+    }
+    .intro-info{
+        padding-inline-start: 1.5rem;
+    }
+    .bank_service-container,
+    .blog-container,
+    .footer-container{
+        padding-inline: 1.5rem;
+    } 
+    .blog-container{
+        padding-block-end: 4rem;
+    }
+    .blog img{
+        height: 12.5rem;
+    }
+    .name{
+        font-size: 0.813rem;
+    }
+    .blog_title{
+        font-weight: 500;
+        padding-block-end: 0.8rem;
+    }
+    .blog_desc{
+        font-size: 0.938rem;
+    }
+    .bank_service-title,
+    .blog_container-title{
+        font-size: 2.188rem;
+    }
+    .service-title{
+        font-size: 1.5rem;
+    }
+    .bank_service-desc{
+        width: 40.62rem;
+        padding-block-start: 0.5rem;
+    }
+}
