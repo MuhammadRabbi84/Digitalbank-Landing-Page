@@ -10,8 +10,6 @@
     --button-hover-bg: hsl(136, 70%, 71%) ,hsl(192, 72%, 63%);
     --body-overley : hsla(233, 26%, 24% ,80%) ,hsla(233, 26%, 24% ,5%);
 
-    /* --cl-shadow: ; */
-
     /* font */
     --fFamily: "Public Sans" ,sans-serif;
     --fwLight: 300;
@@ -74,7 +72,7 @@ body{
     font-size: var(--fsBody);
 }
 
-/*================== Common ‍ style ==================*/
+/*================== Common ‍style ==================*/
 .ds-flex{
     display: flex;
 }
