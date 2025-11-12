@@ -63,7 +63,7 @@
         top: auto;
         padding: 0;
         border-radius: none;
-        box-shadow: none;
+        box-shadow: 0;
         transform: translateY(0);
         opacity: 1;
         pointer-events: auto;
