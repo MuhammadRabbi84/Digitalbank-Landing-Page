@@ -21,7 +21,7 @@ window.addEventListener("resize", () => {
         
             navbarLinks.classList.remove("show-links");
             introSection.classList.remove("show-overley");
-            document.body.classList.toggle("no-scroll");
+            document.body.classList.remove("no-scroll");
             toggleButtonsIcon[1].classList.remove("active_button-icon");
             toggleButtonsIcon[0].classList.add("active_button-icon");
         }        
